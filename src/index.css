@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-100 text-slate-900 antialiased transition-colors duration-300 ease-out;
+}
+
+.dark body {
+  @apply bg-slate-950 text-slate-50;
+}
+
+.glass-card {
+  @apply bg-glass-gradient border border-white/10 rounded-3xl backdrop-blur-glass shadow-xl shadow-purple-500/10;
+}
+
+.neon-border {
+  position: relative;
+}
+
+.neon-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(129, 140, 248, 0.5),
+    rgba(45, 212, 191, 0.5),
+    rgba(59, 130, 246, 0.6),
+    rgba(129, 140, 248, 0.5)
+  );
+  opacity: 0.35;
+  filter: blur(6px);
+  z-index: -1;
+}
+
+.theme-transition {
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+.neon-hover {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+}
+
+.neon-hover:hover {
+  box-shadow: 0 0 35px rgba(129, 140, 248, 0.6), 0 0 55px rgba(45, 212, 191, 0.35);
+  border-color: rgba(129, 140, 248, 0.7);
+}
