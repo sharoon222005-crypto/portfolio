@@ -40,19 +40,19 @@ const About = () => {
           className="space-y-5 text-sm leading-relaxed text-slate-600 dark:text-slate-300 md:text-[15px]"
         >
           <p>
-            I&apos;m Sharoon, a Java full‑stack developer with a strong eye for design. I love turning complex
-            product ideas into smooth, intuitive experiences – from database schema and REST APIs all the way to
-            polished UI interactions.
+            I&apos;m Sharoon, a passionate Java full-stack developer from Chennai with expertise in building end-to-end
+            web applications. I combine strong backend engineering with modern frontend design to create seamless,
+            user-centric digital experiences.
           </p>
           <p>
-            <span className="font-semibold text-indigo-200">Currently learning:</span> advanced Spring Boot
-            patterns, system design fundamentals, and motion‑driven UI to make products feel more alive and
-            intentional.
+            <span className="font-semibold text-indigo-200">Technical Background:</span> B.Sc. Computer Science with
+            Cyber Security from Dr. SNS Rajalakshmi College. Certified Full Stack Developer with expertise in React (Vite),
+            Spring Boot, and MySQL.
           </p>
           <p>
-            <span className="font-semibold text-indigo-200">My goal:</span> to craft products that feel fast,
-            reliable, and beautiful – the kind of interfaces developers love to build with and users love to stay
-            in.
+            <span className="font-semibold text-indigo-200">What I do:</span> I build responsive, modern web applications
+            with clean code and intuitive interfaces. I&apos;m always learning and improving my craft to deliver products
+            that users love.
           </p>
         </motion.div>
       </div>

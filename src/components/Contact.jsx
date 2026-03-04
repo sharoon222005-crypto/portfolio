@@ -136,22 +136,27 @@ const Contact = () => {
             <p className="text-[13px]">
               Based in{' '}
               <span className="font-semibold text-indigo-200">
-                [Your City / Timezone]
+                Chennai, India
               </span>{' '}
               – open to remote and hybrid roles.
             </p>
             <p className="mt-3 text-[13px]">
-              Prefer email? Contact me at{' '}
+              <span className="font-semibold text-indigo-200">Email:</span>{' '}
               <span className="font-mono text-xs text-cyan-300">
-                your.email@example.com
+                sharoon222005@gmail.com
               </span>
-              .
+            </p>
+            <p className="mt-2 text-[13px]">
+              <span className="font-semibold text-indigo-200">Phone:</span>{' '}
+              <span className="font-mono text-xs text-cyan-300">
+                +91 86108 61784
+              </span>
             </p>
           </div>
 
           <div className="glass-card border border-white/10 p-2 text-[11px] text-slate-500 dark:text-slate-400">
             <p>
-              Optional: drop in an embedded map or office location here (Google Maps iframe) to add more context.
+              Find me on LinkedIn or GitHub for more details about my projects and professional experience.
             </p>
           </div>
         </motion.div>
